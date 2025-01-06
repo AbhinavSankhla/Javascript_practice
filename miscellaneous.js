@@ -5,6 +5,15 @@
 // var a = 5;
 // console.log(a); //5
 
+const a ={}; 
+const b = {key: 100}; 
+const c = {key: 200}; 
+
+a[b]=100; 
+a[c]=200; 
+
+console.log(a[b]);
+
 //var(redeclare + update), let(update) and const(nothing).
 // const a = 10;
 // console.log(++a);
@@ -21,11 +30,3 @@
 // }
 // add(5,6)
 
-const a ={}; 
-const b = {key: 100}; 
-const c = {key: 200}; 
-
-a[b]=100; 
-a[c]=200; 
-
-console.log(a[b]);
