@@ -1,13 +1,27 @@
 // JavaScript Program to Find Sum of Even Numbers of an Array
+// let arr = [1,2,3,4,5,6];
+// let sum = 0
 
-let arr = [1,2,3,4,5];
-// sum = 0
+// for (i=0; i<arr.length; i++){
+//     if(arr[i] % 2 === 0){
+//         sum += arr[i] 
+//     }
+// }
+// console.log(sum) //12
+
+
+// JavaScript Program to write array of Even Numbers of an Array
+//01. using for loop and remider 0 method 
+arr = [1,2,3,4,5,6]
 let even_arr =[];
 
-for (i=0; i<arr.length; i++){
-    if(arr[i] % 2 === 0){
-        even_arr = arr[i] 
+for (let i=0; i<arr.length; i++){
+    if(arr[i]%2 === 0){
+        arr.push(arr[i]);
     }
 }
 
 console.log(even_arr)
+
+//02. using filter() and reduce()
+

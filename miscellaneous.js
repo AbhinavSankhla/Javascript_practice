@@ -30,3 +30,6 @@
 // }
 // add(5,6)
 
+
+str = "swiss"
+console.log(str.split("w"))
