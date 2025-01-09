@@ -25,11 +25,11 @@
 // }
 
 // const add = (a,b) =>{
-//     sum = a+b;
+//     sum = a+b;               // or return a+b (explicit return)
 //     console.log(sum)
 // }
 // add(5,6)
 
 
-str = "swiss"
-console.log(str.split("w"))
+// //implicit return
+// const add = (num1,num2) => num1 + num2
