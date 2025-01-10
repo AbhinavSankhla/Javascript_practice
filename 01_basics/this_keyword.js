@@ -13,7 +13,6 @@
 // user.welcome_msg(); //Abhinav, welcome to website
 
 
-
 //using arrow function
 const user = {
     username : 'Mr. Abhinav',
