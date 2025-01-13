@@ -33,3 +33,13 @@
 
 // //implicit return
 // const add = (num1,num2) => num1 + num2
+
+
+// Q. what is outpur?
+const arr =['a','b','c'];
+
+arr.slice(0,1)
+// arr.splice(0,1);
+// arr.unshift('d')
+
+console.log(arr)  //[ 'd', 'b', 'c' ]
